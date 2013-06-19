@@ -271,6 +271,9 @@ git fsck --full --strict</code></pre>
 git gc
 # Note : GC (re-)packs the objects into a collection of objects
 # - in a one file *.pack
+
+# To view the contents of a pack
+git verify-pack -v .git/objects/pack/*.idx
 </code></pre>
 </p>
 </section>
